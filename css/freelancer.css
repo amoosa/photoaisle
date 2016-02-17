@@ -4,14 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-@font-face {
-font-family: 'Urban Sketch';
-font-style: normal;
-font-weight: normal;
-src: local('Urban Sketch'), url('Urban.woff') format('woff');
-}
-
-
 body {
     overflow-x: hidden;
 }
@@ -21,16 +13,28 @@ body {
 .center-al {text-align: center;}
 .portfoliobtn {text-align: center; background-color: green; border: green;}
 .contactbtn {text-align: center; background-color: green; border: green;}
-.navbar-default {background-color: #ffffff;}
-.navbar-default .navbar-nav>li>a {color: #333333;}
-.navbar-default .navbar-brand {color: #333333; vertical-align: middle !important;}
-.navbar-default .navbar-toggle {border-color: #ffffff;}
-.navbar-default .navbar-toggle .icon-bar {background-color: black;}
-#portfolio {background-color: #333333; color: #ffffff;}
+#portfolio {background-color: #e5e5e5; color: #333333;}
 .f_lato {font-family: 'Lato', sans-serif;}
 .orange {color: orange;}
 .guarantee {color: #088A08;}
 
+.navbar-default {background-color: #ffffff;}
+.navbar-default .navbar-nav>li>a {color: #333333; padding-top:19.5px; padding-bottom:19.5px;}
+.navbar-default .navbar-toggle {border-color: #ffffff;}
+.navbar-default .navbar-toggle .icon-bar {background-color: black;}
+.navbar-default .navbar-brand {
+    color: #333333;
+    float: left;
+    padding: 19.5px 15px;
+    font-size: 19px;
+    line-height: 21px;
+    height: 60px;
+}
+.fifty {width:50% !important;}
+
+header .container {
+    padding-top: 125px !important;
+}
 
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -183,8 +187,6 @@ header .intro-text .skills {
 .navbar {
 
     /* font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; */
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 700;
 }
 
 .l_font {font-family: 'Raleway', sans-serif;}
