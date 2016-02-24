@@ -16,6 +16,7 @@ body {
 #portfolio {background-color: #e5e5e5; color: #333333;}
 .f_lato {font-family: 'Lato', sans-serif;}
 .orange {color: orange;}
+.slab {font-family: 'Roboto Slab', serif;}
 
 .navbar-default {background-color: #ffffff;}
 .navbar-default .navbar-nav>li>a {color: #333333; padding-top:19.5px; padding-bottom:19.5px;}
